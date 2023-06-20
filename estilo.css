@@ -173,7 +173,6 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    overflow: hidden;
 }
 
 li>a {
