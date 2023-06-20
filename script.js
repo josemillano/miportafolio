@@ -68,4 +68,3 @@ nextButton.addEventListener("keydown", function(event) {
     // Aquí se puede llamar a la función o ejecutar el código necesario para navegar a la siguiente sección.
   }
 });
-
