@@ -170,6 +170,7 @@ nav a:hover {
 }
 
 .navbar {
+    position: inherit;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -236,7 +237,7 @@ a {
     }
 
     .nav-links.nav-links-responsive {
-        position: initial;
+        position: absolute;
         display: flex;
         background-color: white;
         width: 100%;
