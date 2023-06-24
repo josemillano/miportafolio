@@ -236,7 +236,7 @@ a {
     }
 
     .nav-links.nav-links-responsive {
-        position: absolute;
+        position: initial;
         display: flex;
         background-color: white;
         width: 100%;
