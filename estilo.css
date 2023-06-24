@@ -170,7 +170,6 @@ nav a:hover {
 }
 
 .navbar {
-    position: initial;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -242,7 +241,7 @@ a {
         background-color: white;
         width: 100%;
         height: auto;
-        top: 80px;
+        top: 100px;
         left: 0;
         flex-direction: column;
         padding-top: 40px;
