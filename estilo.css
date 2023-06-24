@@ -173,6 +173,8 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: initial;
+    align-items: flex-start;
 }
 
 li>a {
