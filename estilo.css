@@ -141,7 +141,6 @@ footer {
     background-color: white;
     border-radius: 50px;
     margin: 10px;
-    position: initial;
 }
 
 nav {
@@ -219,6 +218,10 @@ a {
 @media (max-width: 800px) {
     .column {
         flex: 100%;
+    }
+
+    .container-nav {
+        position: initial;
     }
 
     .nav-links {
