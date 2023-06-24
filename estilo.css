@@ -17,6 +17,10 @@ body {
     overflow: auto;
 }
 
+main {
+    margin: 50px;
+}
+
 .lines {
     position: absolute;
     top: 0;
