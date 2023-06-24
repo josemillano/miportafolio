@@ -141,6 +141,7 @@ footer {
     background-color: white;
     border-radius: 50px;
     margin: 10px;
+    position: initial;
 }
 
 nav {
@@ -173,8 +174,6 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    position: initial;
-    align-items: flex-start;
 }
 
 li>a {
