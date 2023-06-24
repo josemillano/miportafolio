@@ -18,7 +18,8 @@ body {
 }
 
 main {
-    margin: 30px;
+    margin: 40px;
+    padding: initial;
 }
 
 .lines {
