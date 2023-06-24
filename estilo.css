@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .lines {
@@ -285,7 +285,7 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 h2 {
@@ -295,7 +295,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .imagen {
