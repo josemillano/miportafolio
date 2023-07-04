@@ -132,11 +132,12 @@ main {
 }
 
 footer {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    margin-top: 10px;
+    margin-left: -12px;
+    height: 70px;
 }
 
 .container-nav {
@@ -274,10 +275,7 @@ p {
     color: white;
 }
 
-h1,
-h3,
-h4,
-h5 {
+h1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -286,7 +284,7 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 h2 {
@@ -296,7 +294,43 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 26px;
+    font-size: 28px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    font-size: 24px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    font-size: 22px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    font-size: 22px;
 }
 
 .imagen {
@@ -319,6 +353,21 @@ h2 {
     overflow: hidden;
     z-index: 2;
     position: relative;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+.imagen33 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    border-radius: 20%;
+    object-fit: cover;
 }
 
 #carouselExampleCaptions {
@@ -344,6 +393,7 @@ h2 {
     margin: 0 5px;
     transition: opacity 0.3s ease;
     cursor: pointer;
+    margin-top: -25px;
 }
   
 .carousel-indicators button.active {
@@ -479,7 +529,7 @@ h2 {
 .carousel-item .imagen20,
 .carousel-item .imagen21 {
     max-width: 100%;
-    width: 600px;
+    width: 760px;
     height: auto;
   }
 
