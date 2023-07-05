@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 .lines {
@@ -273,6 +273,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
+    font-size: 18px;
 }
 
 h1 {
@@ -294,7 +295,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 h3 {
@@ -330,7 +331,7 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .imagen {
